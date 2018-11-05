@@ -1,6 +1,5 @@
 @import url("Reset.css");
-@import url("Bootstrap.css");
-
+@import url("Carousel.css");
 :root{
   --Primary: #4a4442 ;
   --Primart_Tint: #565352 ;
@@ -113,7 +112,8 @@ background-image: linear-gradient(var(--Primary_Shade), var(--Primary));
 }
 #card1{
   opacity: 0.7;
-  background-color: #040404;
+  background-image: linear-gradient( #040404,#040404,#040404, #996515);
+  /* background-color: #040404; */
   padding:10px 15px;
 
   color: white;
@@ -148,7 +148,7 @@ background-image: linear-gradient(var(--Primary_Shade), var(--Primary));
 }
 
 .footer{
-  padding: 2% ;
+  padding: 3% ;
   padding-left: 20px;
   color:white;
   text-align: center;
