@@ -19,7 +19,7 @@ html, body {
 
 .parallax {
   /* The image used */
-  background-image: url("background.jpg");
+  background-image: url("Assets/Images/background.jpg");
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -58,11 +58,10 @@ ul, li {
   width: 100%;
 }
 
-i {
+/* i {
   font-size: 600%;
-  padding-left: 20%;
-}
 
+} */
 #cont1 {
   background-image: linear-gradient(var(--Primary_Shade), var(--Primary));
   color: white;
@@ -85,25 +84,46 @@ i {
 .cont3-1 {
   flex-direction: column;
   margin: 50px;
-  width: 50%;
+  width: 80%;
   text-align: center;
   /* border: 2px solid black; */
 }
 
 .cont3-2 {
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
   margin: 50px;
-  width: 25%;
+  width: 90%;
   text-align: center;
   /* border: 2px solid black; */
 }
 
-#cont4 {
+.icons1 {
+  font-size: 500%;
+}
+
+.iconbox {
+  width: 10%
+}
+
+.descbox {
+  padding-top: 1.1%;
+  width: 50%;
+}
+
+.contactbox1 {
+  width: 50%;
+  flex-direction: column;
+}
+
+.cont4 {
   justify-content: center;
   flex-direction: row;
-  flex-grow:
+}
 
+.cont41 {
+  justify-content: center;
+  flex-direction: row;
 }
 
 #cont5 {
@@ -151,6 +171,44 @@ i {
   list-style-type: none;
   color: white;
   margin: 0px 0px;
+}
+
+/* CV set */
+.mainBox {
+  width: 80%;
+  margin: 10%;
+  height: auto;
+  opacity: 0.7;
+  background-image: linear-gradient(#040404, #040404, #040404, #996515);
+  flex-direction: row;
+}
+
+.rows {
+  display: flex;
+  flex-direction: row;
+}
+
+.textOpacity {
+  opacity: 1;
+}
+
+.title {
+  background-color: #040404;
+  opacity: 0.9;
+  color: white;
+}
+
+.sideBar {
+  width: 20%;
+  margin: 5%;
+  flex-direction: column;
+  color: white;
+}
+
+.articleText {
+  width: 80%;
+  margin: 5%;
+  color: white;
 }
 
 #footer {
@@ -230,7 +288,7 @@ i {
     width: 80%;
   }
 
-  #cont4 {
+  .cont4 {
     width: 100;
     flex-direction: column;
   }
