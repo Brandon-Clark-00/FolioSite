@@ -92,6 +92,7 @@ i {
 
 .cont3-2 {
   flex-direction: row;
+  justify-content: space-between;
   margin: 50px;
   width: 25%;
   text-align: center;
@@ -101,6 +102,8 @@ i {
 #cont4 {
   justify-content: center;
   flex-direction: row;
+  flex-grow:
+
 }
 
 #cont5 {
