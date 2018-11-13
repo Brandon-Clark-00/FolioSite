@@ -19,7 +19,7 @@ html, body {
 
 .parallax {
   /* The image used */
-  background-image: url("Assets/Images/background.jpg");
+  background-image: url("/Assets/Images/background.jpg");
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
