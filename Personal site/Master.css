@@ -75,7 +75,7 @@ ul, li {
 }
 
 .cont1 {
-  background-image: linear-gradient(var(--Primary_One), var(--Primary_Two), var(--Secondary_One));
+  background-image: linear-gradient(var(--Primary_One), var(--Primary_Three), var(--Primary_Two), var(--Secondary_One));
   color: white;
 }
 
