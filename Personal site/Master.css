@@ -1,6 +1,7 @@
 @import url("Reset.css");
 @import url("Carousel.css");
 @import url("CV.css");
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 :root {
   /* Main colour scheme */
@@ -15,6 +16,10 @@
 /* Tag Element base styles */
 html, body {
   width: 100%;
+}
+
+a, p, h1, h2, h3, h4, h5, h6, pre, li, tr, td, th {
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 a {
@@ -77,6 +82,7 @@ ul, li {
 .cont1 {
   background-image: linear-gradient(var(--Primary_One), var(--Primary_Three), var(--Primary_Two), var(--Secondary_One));
   color: white;
+  padding: 2.5% 0%;
 }
 
 .cont1 h1 {
@@ -430,7 +436,7 @@ tr:nth-child(even) {
   }
 
   .cont4 {
-    width: 100%;
+    width: 80%;
     justify-content: center;
     flex-direction: column;
   }
@@ -507,6 +513,10 @@ tr:nth-child(even) {
   .photoColumn {
     flex: 80%;
     max-width: 80%;
+  }
+
+  .mainBox {
+    width: 60%;
   }
 
   .photoRow {
