@@ -82,7 +82,8 @@ ul, li {
 .cont1 {
   background-image: linear-gradient(var(--Primary_One), var(--Primary_Three), var(--Primary_Two), var(--Secondary_One));
   color: white;
-  padding: 2.5% 0%;
+  padding: -bottom:2.5%;
+  padding-top: 1%;
 }
 
 .cont1 h1 {
