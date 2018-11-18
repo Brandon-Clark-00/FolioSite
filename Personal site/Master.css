@@ -44,6 +44,10 @@ ul, li {
   display: block;
 }
 
+.picture {
+  width: 100%;
+}
+
 /* Background image/ parallax scrolling  */
 .parallax {
   width: auto;
