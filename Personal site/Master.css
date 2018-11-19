@@ -512,7 +512,7 @@ tr:nth-child(even) {
   }
 
   .fullBox p {
-    font-size: 100%;
+    font-size: 120%;
   }
 
   h2 {
@@ -537,11 +537,12 @@ tr:nth-child(even) {
   .sideBarContent p {
     padding: 5% 12.5%;
     text-align: left;
-    font-size: 80%;
+    font-size: 100%;
   }
 
   .fullBox p {
     font-size: 80%;
+    padding: 0% 2%;
   }
 
   h2 {
@@ -551,5 +552,20 @@ tr:nth-child(even) {
   #cont2 li {
     border-bottom: none;
     font-size: 100%;
+  }
+
+  .table th {
+    padding: 1% 1%;
+    font-size: 100%;
+  }
+
+  .table td {
+    border: 1px solid white;
+    padding: 1% 1%;
+    font-size: 80%;
+  }
+
+  .fullBox p {
+    font-size: 140%;
   }
 }
