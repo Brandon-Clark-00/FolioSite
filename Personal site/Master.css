@@ -286,7 +286,6 @@ tr:nth-child(even) {
 .nav {
   list-style-type: none;
   color: white;
-  margin: 0% 0%;
 }
 
 .nav a {
@@ -295,13 +294,14 @@ tr:nth-child(even) {
 }
 
 .navBox {
-  border-right: 1% solid var(--Primary_Shade);
+  border-right: 2px solid var(--Primary_One);
+  border-left: 2px solid var(--Primary_One);
   padding: 1% 4%;
   font-size: 125%;
 }
 
 .navBox:hover {
-  border-bottom: 2.5px solid var(--Tint)
+  border-bottom: 2.5px solid var(--Tint);
 }
 
 /* Footer */
