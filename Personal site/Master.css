@@ -400,6 +400,8 @@ tr:nth-child(even) {
 }
 
 @media screen and (max-width: 1000px) {
+
+  /* Containers */
   .container {
     flex-direction: column;
     justify-content: center;
@@ -464,16 +466,6 @@ tr:nth-child(even) {
     justify-content: center;
   }
 
-  #active {
-    border-bottom: none;
-    border-right: 2% solid var(--Tint);
-  }
-
-  .photoColumn {
-    flex: 50%;
-    max-width: 50%;
-  }
-
   .descbox {
     width: 60%;
     text-align: left;
@@ -491,12 +483,9 @@ tr:nth-child(even) {
     width: 80%;
   }
 
-  #Twitter {
-    display: none;
-  }
-
-  i {
-    font-size: 90%;
+  .photoColumn {
+    flex: 50%;
+    max-width: 50%;
   }
 
   .rows {
@@ -523,12 +512,28 @@ tr:nth-child(even) {
     font-size: 120%;
   }
 
+  /* ID's */
+  #active {
+    border-bottom: none;
+    border-right: 2% solid var(--Tint);
+  }
+
+  #Twitter {
+    display: none;
+  }
+
+  i {
+    font-size: 90%;
+  }
+
   h2 {
     font-size: 150%;
   }
 }
 
 @media screen and (max-width: 700px) {
+
+  /* Container */
   .photoColumn {
     flex: 80%;
     max-width: 80%;
@@ -536,6 +541,10 @@ tr:nth-child(even) {
 
   .mainBox {
     width: 80%;
+  }
+
+  .fullBox p {
+    font-size: 140%;
   }
 
   .photoRow {
@@ -553,6 +562,7 @@ tr:nth-child(even) {
     padding: 0% 2%;
   }
 
+  /* Other */
   h2 {
     font-size: 125%;
   }
@@ -562,6 +572,7 @@ tr:nth-child(even) {
     font-size: 100%;
   }
 
+  /* Table */
   .table th {
     padding: 1% 1%;
     font-size: 90%;
@@ -571,9 +582,5 @@ tr:nth-child(even) {
     border: 1px solid white;
     padding: 1% 1%;
     font-size: 80%;
-  }
-
-  .fullBox p {
-    font-size: 140%;
   }
 }
