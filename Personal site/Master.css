@@ -82,7 +82,7 @@ ul, li {
 .cont1 {
   background-image: linear-gradient(var(--Primary_One), var(--Primary_Three), var(--Primary_Two), var(--Secondary_One));
   color: white;
-  padding: -bottom:2.5%;
+  padding-bottom: 2.5%;
   padding-top: 1%;
 }
 
@@ -326,6 +326,14 @@ tr:nth-child(even) {
   text-align: center;
 }
 
+.footerName h2 {
+  color: var(--Tint);
+}
+
+.footerName h3 {
+  color: var(--Tint);
+}
+
 .footer p {
   padding-bottom: 4%;
 }
@@ -438,7 +446,7 @@ tr:nth-child(even) {
   }
 
   .cont2 li:hover {
-    border-top: 2% solid var(--Primary_Shade);
+    border-top: 2px solid var(--Primary_Shade);
   }
 
   .cont3 {
@@ -527,7 +535,7 @@ tr:nth-child(even) {
   }
 
   .mainBox {
-    width: 60%;
+    width: 80%;
   }
 
   .photoRow {
@@ -556,7 +564,7 @@ tr:nth-child(even) {
 
   .table th {
     padding: 1% 1%;
-    font-size: 100%;
+    font-size: 90%;
   }
 
   .table td {
