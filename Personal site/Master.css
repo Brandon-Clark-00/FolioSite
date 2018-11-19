@@ -301,7 +301,7 @@ tr:nth-child(even) {
 }
 
 .navBox:hover {
-  border-bottom: 2.5% solid var(--Primary_Shade)
+  border-bottom: 2.5px solid var(--Tint)
 }
 
 /* Footer */
@@ -368,7 +368,7 @@ tr:nth-child(even) {
 } */
 @media screen and (min-width: 1000px) {
   #active {
-    border-bottom: 2% solid orange;
+    border-bottom: 2px solid var(--Primary_One);
   }
 }
 
@@ -455,7 +455,7 @@ tr:nth-child(even) {
 
   #active {
     border-bottom: none;
-    border-right: 2% solid var(--Accent);
+    border-right: 2% solid var(--Tint);
   }
 
   .photoColumn {
