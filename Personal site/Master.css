@@ -299,7 +299,7 @@ tr:nth-child(even) {
   font-size: 125%;
 }
 
-#navBoxLeft {
+.navBoxLeft {
   border-left: 2px solid var(--Primary_One);
 }
 
