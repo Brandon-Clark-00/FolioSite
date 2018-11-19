@@ -295,9 +295,12 @@ tr:nth-child(even) {
 
 .navBox {
   border-right: 2px solid var(--Primary_One);
-  border-left: 2px solid var(--Primary_One);
   padding: 1% 4%;
   font-size: 125%;
+}
+
+#navBoxLeft {
+  border-left: 2px solid var(--Primary_One);
 }
 
 .navBox:hover {
@@ -368,7 +371,7 @@ tr:nth-child(even) {
 } */
 @media screen and (min-width: 1000px) {
   #active {
-    border-bottom: 2px solid var(--Primary_One);
+    border-bottom: 2px solid white;
   }
 }
 
